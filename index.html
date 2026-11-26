@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>NeuroABC | Privacy and support</title>
+  <style>
+    :root { color-scheme:light dark; --paper:#f8f7f2; --ink:#23232a; --accent:#3842ba; --line:#dad9d1 }
+    @media(prefers-color-scheme:dark) { :root { --paper:#171820; --ink:#f4f2e9; --accent:#b8bfff; --line:#41424b } }
+    * { box-sizing:border-box }
+    body { margin:0; font:1.0625rem/1.65 system-ui,sans-serif; background:var(--paper); color:var(--ink) }
+    header, main { width:min(100% - 2.5rem, 43rem); margin:auto }
+    header { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:1rem; padding:1.15rem 0; border-bottom:1px solid var(--line) }
+    header strong { font-size:1.15rem }
+    nav { display:flex; flex-wrap:wrap; gap:1.2rem }
+    a { color:var(--accent); text-underline-offset:.18em; overflow-wrap:anywhere }
+    a:focus-visible { outline:2px solid var(--accent); outline-offset:4px }
+    nav a { display:inline-flex; align-items:center; min-height:44px }
+    section { padding:clamp(2rem,6vw,3.5rem) 0; scroll-margin-top:1rem }
+    section + section { border-top:1px solid var(--line) }
+    h1,h2 { margin:0 0 1rem; font:normal clamp(2rem,6vw,3rem)/1.1 Georgia,serif }
+    p { margin:0 0 1.15rem } p:last-child { margin-bottom:0 }
+  </style>
+</head>
+<body>
+  <header><strong>NeuroABC</strong><nav aria-label="On this page"><a href="#privacy">Privacy</a><a href="#support">Support</a></nav></header>
+  <main>
+    <section id="privacy" aria-labelledby="policy-title">
+      <h1 id="policy-title">Privacy policy</h1>
+      <p>NeuroABC is published by Anil Gautam. This policy is effective November 26, 2026. For privacy questions, email anilgautam1180@gmail.com.</p>
+      <p>NeuroABC keeps your notebook on this device. You can use it without an account. We do not receive your journal or health readings through the app. The app has no ads or analytics. Your notebook is in protected storage excluded from device backups.</p>
+      <p>On iPhone, choosing local weather and air quality sends coordinates rounded to one decimal place to Open-Meteo. Searching for a city sends the city name you type to its geocoding service. Forecasts may refresh in the background for a saved area. Your sleep plans, check-ins and journal stay on the phone. To stop forecast requests, choose Remove location in Hourly guide settings.</p>
+      <p>If you enable movement reminders, NeuroABC can read recent steps from Apple Health or Health Connect. On iPhone, it can also read stand hours when a watch records them. With background access, it can check while the app is closed. A low step count may trigger a local reminder during the hours you choose. Your phone stores delivery times so the app can space reminders. You can choose a scheduled reminder without health access.</p>
+      <p>If you allow sleep access, your night routine and journal can show recorded sleep times. The weekly review can show daily steps, sleep and available stand-hour records alongside your own entries. These readings stay on this device. NeuroABC does not write to your health records.</p>
+      <p>You can turn off movement reminders in NeuroABC and revoke individual permissions in Apple Health or Health Connect. You can delete a journal entry in its editor. Deleting the app and its local data removes its notebook. Your original health records stay in Apple Health or Health Connect, where you control them.</p>
+      <p>When you export body notes, you choose the date range and destination in your phone’s share sheet. The recipient controls the copy you share.</p>
+      <p>Recorded practice guides play from the device. Choosing an episode or book link opens the source outside NeuroABC. That service receives the request and can see your IP address.</p>
+      <p>Widgets, focus notifications, Live Activities and wallpaper can be visible to others. Adding a widget can show your next action, challenge or commitment. A message widget or wallpaper can show your why note. You can remove a widget, change wallpaper, disable an automation or turn off scheduled changes. The iPhone widget uses a device-only Keychain item containing display text. It does not sync and is accessible while your iPhone is unlocked.</p>
+      <p>If you choose to save the quote album on iPhone, NeuroABC writes its public messages as pictures in Photos. Limited Photos access is enough. The app checks the album and its exported pictures so you can save it again without duplicating wallpapers. Your Photos settings control whether the pictures sync to iCloud.</p>
+      <p>If you email support, Anil receives your email address and the details you choose to send so he can reply. You can request deletion of that correspondence at the same address. You can ask for help without sharing journal entries or health readings.</p>
+    </section>
+    <section id="support" aria-labelledby="support-title">
+      <h2 id="support-title">NeuroABC support</h2>
+      <p>Email Anil Gautam at <a href="mailto:anilgautam1180@gmail.com">anilgautam1180@gmail.com</a> for help with the app, feedback or a privacy request.</p>
+      <p>If something went wrong, tell me what you tapped and what happened. Your phone model and app version can help me investigate.</p>
+    </section>
+  </main>
+</body>
+</html>
